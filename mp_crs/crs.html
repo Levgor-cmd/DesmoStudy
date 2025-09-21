@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Курс</title>
+    <style>
+        body {
+            background-attachment: fixed;
+            background-image: url('bckGr.png');
+            background-size: 100vw 100vh;
+            font-family: 'Lucida Console';
+            color: #ffffff;
+            width: 70%;
+            line-height: 50px;
+            margin: 0 auto;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #9A9A9A;
+            transition: color 0.3s ease; /* Добавляем анимацию перехода */
+        }
+
+        a:hover {
+            color: #32a852; /* Цвет при наведении */
+        }
+
+        a:active {
+            color: #32a852; /* Цвет при нажатии */
+        }
+
+        a.visited {
+            color: #32a852; /* Цвет для уже посещенных ссылок */
+        }
+
+        a.back-button {
+            color: inherit;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1><p align="center">Карта курса</p></h1>
+    <h2><p align="center">
+        <a href="crs_f\mod_1.html" class="menu-link">Предисловие</a>
+        <br>
+        <a href="crs_f\mod_2.html" class="menu-link">Краткий обзор интерфейса</a>
+        <br>
+        <a href="crs_f\mod_3.html" class="menu-link">Элементарные функции и их графики</a>
+        <br>
+        <a href="crs_f\mod_4.html" class="menu-link">Неравенства</a>
+        <br>
+        <a href="crs_f\mod_5.html" class="menu-link">Динамические графики</a>
+        <br>
+        <a href="crs_f\mod_6.html" class="menu-link">Точки и таблицы</a>
+        <br>
+        <a href="crs_f\mod_7.html" class="menu-link">Списки (часть 1)</a>
+        <br>
+        <a href="crs_f\mod_8.html" class="menu-link">Списки (часть 2)</a>
+        <br>
+        <a href="crs_f\mod_9.html" class="menu-link">Геометрические функции</a>
+        <br>
+        <a href="crs_f\mod_10.html" class="menu-link">Функции времени. Действия</a>
+        <br>
+        <a href="crs_f\mod_11.html" class="menu-link">Звуковые функции</a>
+        <br>
+        <a href="crs_f\mod_12.html" class="menu-link">Элементы анализа и теории чисел</a>
+        <br>
+        <a href="https://www.desmos.com/calculator/vxcbrgo4du" class="menu-link">Статистика</a>
+        <br>
+	<a href="https://rutube.ru/video/bd9645d2259551896463e0ab4812f568/?r=wd" class="menu-link">Комплексные числа</a>
+        <br>
+        <a href="crs_f\mod_13.html" class="menu-link">Окончания и напутствия</a>
+        <br>
+        <a href="crs_f\prac.html" class="menu-link">П р а к т и к а</a>
+        <br>
+    </h2></p>
+    <h3><p align = "center"><a href = "../index.html" class = "back-button"> Назад </a><p></h3>
+
+    <script>
+        // Скрипт для отметки посещенных ссылок
+        document.querySelectorAll('a.menu-link').forEach(link => {
+            link.addEventListener('click', function() {
+                this.classList.add('visited'); // Добавляем класс 'visited' на уже посещенные ссылки
+            });
+        });
+    </script>
+</body>
+</html>

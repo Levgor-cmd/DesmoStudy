@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "ru">
+
+<head>
+    <meta charset = "utf-8">
+    <title> Модуль 7.2 </title>
+    <style>
+    body {
+    background-attachment: fixed;
+        background-image: url('bckGr.png');
+        background-size: 100vw 100vh;
+        font-family: 'Lucida Console';
+        color: #ffffff;
+    }
+    h1 {
+        color: #8dd69a;
+    }
+     h2 {
+        width: 70%;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    </style>
+<head>
+<body>
+    <h1><p align = "center"><b> Списки. Часть 2 </b></p></h1>
+    <div align="center">
+        <img src="" width="1065" height="">
+    </div>
+
+    <h2 style = "text-indent:50px;"><p>Перейдем к операциям над списками. В этом уроке мы разберем только самые важные, а после более подробно ознакомимся с ними в модуле со статистикой.</p></h2>
+
+    <h2 style = "text-indent:50px;"><p>Перед тем как рассматривать операции, предлагаю вкратце ознакомится с индексацией и срезами в списках. Если вам, предположим, нужно «вынуть» из списка элемент с номером <i>N</i>, просто пропишите рядом со списком его в квадратных скобках следующим образом:</p></h2>
+    <div align="center">
+        <img src="src/81.png" width="1065" height="">
+    </div>
+    <h2 style = "text-indent:50px;"><p>Если же вам требуется взять несколько элементов из списка, воспользуйтесь срезом:</p></h2>
+
+    <div align="center">
+        <img src="src/82.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Теперь к самим операциям. Начнем с того, что списки поддерживают арифметические операции. Наверное, для многих это покажется очевидным, но на всякий случай предупрежу: в списках арифметические операции проводятся над соответствующими элементами, т.е. если мы, например, складываем списки разной длины, то на выходе получим список наименьшей длины из исходных:</p></h2>
+
+     <div align="center">
+        <img src="src/83.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Чтобы отсортировать список в порядке возрастания (неубывания), используется функция sort:</p></h2>
+
+     <div align="center">
+        <img src="src/84.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>А для того чтобы отсеять повторяющиеся элементы, используется функция unique:</p></h2>
+
+     <div align="center">
+        <img src="src/85.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Объединить несколько списков в один можно при помощи функции join:</p></h2>
+
+     <div align="center">
+        <img src="src/86.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Часто бывает нужно перемешать список в случайном порядке, для этого существует функция shuffle: (при нажатии на соответствующий значок сверху элементы списка перемешаются)</p></h2>
+
+     <div align="center">
+        <img src="src/87.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Для того чтобы найти минимальное/максимальное значение из списка, используются функции min/max:</p></h2>
+
+     <div align="center">
+        <img src="src/88.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Найти среднее арифметическое списка можно при помощи mean:</p></h2>
+
+     <div align="center">
+        <img src="src/89.png" width="1065" height="">
+    </div>
+
+     <h2 style = "text-indent:50px;"><p>Напоследок хочу всем порекомендовать расширение DesModder, в котором намного удобнее работать, нежели в обычной версии Desmos. Скачать можно ниже:
+     <br>
+     <a href = "
+https://addons.mozilla.org/en-US/firefox/addon/desmodder-for-desmos/">Firefox</a>
+     <br>
+     <a href = "https://chromewebstore.google.com/detail/desmodder-for-desmos/eclmfdfimjhkmjglgdldedokjaemjfjp">Chrome</a>
+     </p></h2>
+    <p align = "center"><a href = "../crs.html"> Назад </a><p>
+</body>
+
+</html>
+
